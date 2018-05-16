@@ -14,6 +14,9 @@ public class SpringHelloApp {
 		// call methods on the bean
 		System.out.println(theCoach.getDailyWorkout());
 		
+		// calls fortune method which uses helper class injected
+		System.out.println(theCoach.getFortune());
+		
 		// close the context
 		context.close();
 	}
