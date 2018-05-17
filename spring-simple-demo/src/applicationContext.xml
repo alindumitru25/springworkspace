@@ -19,6 +19,16 @@
  		<constructor-arg ref="myFortune" />
  	</bean>
 
+	<bean id="myCricketCoach"
+		class="com.luv2code.springdemo.CricketCoach">
+		
+		<!-- setup setter injection -->
+		<property name="fortuneService" ref="myFortune" />
+		
+		<property name="emailAddress" value="bestcoach@luv2code.com" />
+		
+		<property name="team" ref="teamAwesome" />
+	</bean>
 
 </beans>
 

@@ -17,6 +17,10 @@ public class SpringHelloApp {
 		// calls fortune method which uses helper class injected
 		System.out.println(theCoach.getFortune());
 		
+		System.out.print(theCoach.getEmailAddress());
+		
+		System.out.println(theCoach.getTeam());
+		
 		// close the context
 		context.close();
 	}
