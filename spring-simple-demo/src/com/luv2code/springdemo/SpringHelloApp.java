@@ -9,7 +9,7 @@ public class SpringHelloApp {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		// retrieve bean from spring container
-		Coach theCoach = context.getBean("myCoach", Coach.class);
+		CricketCoach theCoach = context.getBean("myCricketCoach", CricketCoach.class);
 		
 		// call methods on the bean
 		System.out.println(theCoach.getDailyWorkout());
@@ -17,7 +17,7 @@ public class SpringHelloApp {
 		// calls fortune method which uses helper class injected
 		System.out.println(theCoach.getFortune());
 		
-		System.out.print(theCoach.getEmailAddress());
+		System.out.println(theCoach.getEmailAddress());
 		
 		System.out.println(theCoach.getTeam());
 		
