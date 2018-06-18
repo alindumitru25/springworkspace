@@ -11,20 +11,24 @@ public class MyDemoLoggingAspect {
 	
 	@Pointcut("execution(* com.luv2code.aopdemo.dao.*.*(..))")
 	private void forDAOPackage() {}
-
-	// this is where we add advices / before / after / around
-	@Before("forDAOPackage()")
-	public void beforeAddAccountAdvice() {
-		System.out.println("\n======>> Executing @Before advice on addAccount()\n");
-	}
+	
+	@Pointcut("execution(* com.luv2code.aopdemo.dao.*.get*(..))")
+	private void getter() {}
+	
+	@Pointcut("execution(* com.luv2code.aopdemo.dao.*.set*(..))")
+	private void setter() {}
+	
+	// combine pointcut to exclude setter & getter
+	@Pointcut("forDAOPackage() && !(getter() || setter())")
+	private void forDAOPackageWithoutGetterAndSetter() {}
 	
 	// @Before("execution(* add*(com.luv2code.aopdemo.Account, ..))")
-	@Before("forDAOPackage()")
+	@Before("forDAOPackageWithoutGetterAndSetter()")
 	public void beforeAddReturnString() {
 		System.out.println("\n======>> Executing @Before advice on addAccount() & returns\n");
 	}
 	
-	@Before("forDAOPackage()")
+	@Before("forDAOPackageWithoutGetterAndSetter()")
 	public void performApiAnalytics() {
 		System.out.println("\n======>> Perform API analytics\n");
 	}
