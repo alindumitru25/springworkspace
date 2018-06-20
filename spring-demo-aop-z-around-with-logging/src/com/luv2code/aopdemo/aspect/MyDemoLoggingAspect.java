@@ -21,6 +21,23 @@ import com.luv2code.aopdemo.Account;
 @Order(2)
 public class MyDemoLoggingAspect {
 	
+	@Around("execution(* com.luv2code.aopdemo.service.*.getFortune(..))")
+	public Object aroundGetFortune(
+			ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
+		String method = proceedingJoinPoint.getSignature().toShortString();
+		System.out.println("Executing @Around on method: " + method);
+		
+		long begin = System.currentTimeMillis();
+		
+		Object result = proceedingJoinPoint.proceed();
+		
+		long end = System.currentTimeMillis();
+		long duration = end - begin;
+		System.out.println("Duration took: " + duration / 1000.0 + " seconds");
+		
+		return result;
+	}
+	
 	@After("execution(* com.luv2code.aopdemo.dao.AccountDAO.getAccounts(..))")
 	public void afterFinallyGetAccountsAdvice(JoinPoint joinPoint) {
 		String method = joinPoint.getSignature().toShortString();
