@@ -32,7 +32,28 @@ public class MyDemoLoggingAspect {
 		
 		long begin = System.currentTimeMillis();
 		
-		Object result = proceedingJoinPoint.proceed();
+		Object result = null;
+		
+		// swallow exception
+		/*try {
+			result = proceedingJoinPoint.proceed();
+		} catch (Exception exc) {
+			// log exception
+			myLogger.warning(exc.getMessage());
+			
+			// give a custom message
+			result = "Major Accident!!!";
+		}*/
+		
+		try {
+			result = proceedingJoinPoint.proceed();
+		} catch (Exception exc) {
+			// log exception
+			myLogger.warning(exc.getMessage());
+			
+			// throw
+			throw exc;
+		}
 		
 		long end = System.currentTimeMillis();
 		long duration = end - begin;
