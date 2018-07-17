@@ -11,4 +11,5 @@
         <runningAs username="hbstudent"/>
     </preConditions>
     <include file="data/changelog/db.changelog-0.0.1.xml" />
+    <include file="data/changelog/db.changelog-0.0.2.xml" />
 </databaseChangeLog>
