@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/schedulingexample/pom.xml" />
         <option value="$PROJECT_DIR$/springbootrest/pom.xml" />
+        <option value="$PROJECT_DIR$/reactiverestservice/pom.xml" />
       </list>
     </option>
   </component>

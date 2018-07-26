@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="reactiverestservicesimple" />
         <module name="schedulingexample" />
         <module name="springbootrest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="reactiverestservicesimple" target="1.8" />
       <module name="schedulingexample" target="1.8" />
       <module name="springbootrest" target="1.8" />
     </bytecodeTargetLevel>
