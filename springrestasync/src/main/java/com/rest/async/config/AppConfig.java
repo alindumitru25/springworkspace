@@ -14,14 +14,19 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.socket.config.annotation.EnableWebSocket;
+import org.springframework.web.socket.server.standard.ServletServerContainerFactoryBean;
 import sun.nio.ch.ThreadPool;
 
 import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
 import java.util.Properties;
 import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 @Configuration
 @EnableWebMvc
@@ -29,7 +34,10 @@ import java.util.concurrent.ThreadPoolExecutor;
 @ComponentScan("com.rest.async")
 @PropertySource({ "classpath:persistence-mysql.properties" })
 @EnableAsync
+@EnableWebSocket
 public class AppConfig implements WebMvcConfigurer {
+    final private int BUFFER_SIZE = 16384;
+
     @Autowired
     private Environment env;
 
@@ -101,4 +109,27 @@ public class AppConfig implements WebMvcConfigurer {
 
         return executor;
     }
+
+    @Bean
+    public ServletServerContainerFactoryBean configureWebSocketContainer() {
+        ServletServerContainerFactoryBean factory = new ServletServerContainerFactoryBean();
+
+        factory.setMaxBinaryMessageBufferSize(BUFFER_SIZE);
+        factory.setMaxTextMessageBufferSize(BUFFER_SIZE);
+        factory.setMaxSessionIdleTimeout(TimeUnit.MINUTES.convert(30, TimeUnit.MILLISECONDS));
+        factory.setAsyncSendTimeout(TimeUnit.SECONDS.convert(5, TimeUnit.MILLISECONDS));
+
+        return factory;
+    }
+
+    @Override
+    public void addResourceHandlers(final ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+    }
+
+    @Override
+    public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+        configurer.enable();
+    }
+
 }

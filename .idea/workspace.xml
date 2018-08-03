@@ -2,37 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e833f58-f5a3-4eaa-9ca2-9907c8a75e14" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_25_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_test_3_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactiverestservice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactiverestservice/reactiverestservicesimple.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactiverestservice/src/main/java/hello/GreetingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactiverestservice/src/main/java/hello/GreetingRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactiverestservice/src/main/java/hello/GreetingWebClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactiverestservice/src/main/java/hello/ReactiveApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springrestasync/src/main/webapp/resources/ws-consumer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springrestasync/src/main/webapp/ws.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/src/main/java/com/rest/async/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/src/main/java/com/rest/async/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/classes/com/rest/async/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/target/classes/com/rest/async/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/classes/com/rest/async/rest/NoteRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/target/classes/com/rest/async/rest/NoteRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async.war" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/target/spring-rest-async.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/classes/com/rest/async/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/classes/com/rest/async/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/classes/com/rest/async/rest/NoteRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/classes/com/rest/async/rest/NoteRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/lib/spring-aop-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/lib/spring-beans-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/lib/spring-context-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/lib/spring-core-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/lib/spring-expression-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/lib/spring-jcl-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/lib/spring-jdbc-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/lib/spring-orm-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/lib/spring-tx-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/lib/spring-web-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/WEB-INF/lib/spring-webmvc-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springrestasync/target/spring-rest-async/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/schedulingexample/target/" />
     <ignored path="$PROJECT_DIR$/springbootrest/target/" />
@@ -46,100 +41,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReactiveApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reactiverestservice/src/main/java/hello/ReactiveApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GreetingWebClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reactiverestservice/src/main/java/hello/GreetingWebClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GreetingHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reactiverestservice/src/main/java/hello/GreetingHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/DemoConfig.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/dao/CustomerDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/dao/CustomerDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/entity/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="391">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-demo-aop-read-joinpoint/src/com/luv2code/aopdemo/dao/AccountDAO.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="list-customers.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-customer-tracker/WebContent/WEB-INF/view/list-customers.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="GreetingRouter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reactiverestservice/src/main/java/hello/GreetingRouter.java">
+      <file leaf-file-name="access-denied.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-security-demo-demo-07-user-roles/src/main/webapp/WEB-INF/view/access-denied.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-security-demo-demo-08-jdbc-plaintext/src/main/webapp/WEB-INF/view/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".classpath" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-mvc-demo2/.classpath">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fancy-login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-security-demo-demo-07-user-roles/src/main/webapp/WEB-INF/view/fancy-login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mvc-crud-demo-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-customer-trackeraop/WebContent/WEB-INF/spring-mvc-crud-demo-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="643">
+              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add-customer-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-customer-trackeraop/WebContent/resources/css/add-customer-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customer-form.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-customer-trackeraop/WebContent/WEB-INF/view/customer-form.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-security-demo-demo-03-custom-login-form/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -166,6 +153,13 @@
       <find>RestController</find>
       <find>sql</find>
       <find>@Component</find>
+      <find>a href=</find>
+      <find>.</find>
+      <find>.js</find>
+      <find>mvc:resou</find>
+      <find>add-customer-style</find>
+      <find>&lt;script</find>
+      <find>jstl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,11 +221,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3833" />
-    <option name="y" value="-7" />
-    <option name="width" value="1932" />
-    <option name="height" value="1165" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="3832" />
+    <option name="y" value="-17" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -248,6 +242,69 @@
             <path>
               <item name="springworkspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="springworkspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="web-customer-trackeraop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="web-customer-trackeraop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="web-customer-trackeraop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="web-customer-trackeraop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="luv2code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="web-customer-trackeraop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="luv2code" type="462c0819:PsiDirectoryNode" />
+              <item name="springdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="web-customer-trackeraop" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="web-customer-trackeraop" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="web-customer-trackeraop" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springworkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="web-customer-trackeraop" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -413,11 +470,12 @@
       <workItem from="1532000034196" duration="4005000" />
       <workItem from="1532327643574" duration="2056000" />
       <workItem from="1532500529247" duration="55000" />
+      <workItem from="1533287437971" duration="3249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58465000" />
+    <option name="totallyTimeSpent" value="61714000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +487,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3832" y="-17" width="1936" height="1176" extended-state="6" />
+    <frame x="3832" y="-17" width="1936" height="1176" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -451,9 +510,10 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.28275862" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32906404" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.27881774" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27292112" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27712137" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32906404" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -462,7 +522,6 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32906404" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32906404" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,57 +536,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/schedulingexample/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schedulingexample/src/main/java/hello/ScheduledTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schedulingexample/src/main/java/hello/ScheduledMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springbootrest/src/main/java/entity/Greeting.java" />
-    <entry file="file://$PROJECT_DIR$/springbootrest/src/main/java/rest/GreetingController.java" />
-    <entry file="file://$PROJECT_DIR$/spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/rest/CustomerRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springbootrest/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-crm-rest-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-crm-rest-demo/src/main/resources/persistence-mysql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springbootrest/src/main/java/hello/rest/GreetingController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -791,8 +799,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-crm-rest-demo/src/main/java/com/luv2code/springdemo/entity/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="391">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-customer-tracker/WebContent/WEB-INF/view/list-customers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-demo-demo-07-user-roles/src/main/webapp/WEB-INF/view/access-denied.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-demo-demo-08-jdbc-plaintext/src/main/webapp/WEB-INF/view/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-mvc-demo2/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-demo-demo-07-user-roles/src/main/webapp/WEB-INF/view/fancy-login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-customer-trackeraop/WebContent/WEB-INF/spring-mvc-crud-demo-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-customer-trackeraop/WebContent/resources/css/add-customer-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-customer-trackeraop/WebContent/WEB-INF/view/customer-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-demo-demo-03-custom-login-form/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
         </state>
       </provider>
     </entry>

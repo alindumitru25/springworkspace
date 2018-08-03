@@ -1,8 +1,10 @@
 C:\springrampup\springworkspace\springrestasync\src\main\java\com\rest\async\service\NoteServiceImpl.java
 C:\springrampup\springworkspace\springrestasync\src\main\java\com\rest\async\dao\NoteDAO.java
 C:\springrampup\springworkspace\springrestasync\src\main\java\com\rest\async\config\NotesSpringMvcDispatcherServletInitializer.java
+C:\springrampup\springworkspace\springrestasync\src\main\java\com\rest\async\config\WebSocketConfiguration.java
 C:\springrampup\springworkspace\springrestasync\src\main\java\com\rest\async\dao\NoteDAOImpl.java
 C:\springrampup\springworkspace\springrestasync\src\main\java\com\rest\async\config\AppConfig.java
+C:\springrampup\springworkspace\springrestasync\src\main\java\com\rest\async\ws\EchoHandler.java
 C:\springrampup\springworkspace\springrestasync\src\main\java\com\rest\async\rest\NoteRestController.java
 C:\springrampup\springworkspace\springrestasync\src\main\java\com\rest\async\service\NoteService.java
 C:\springrampup\springworkspace\springrestasync\src\main\java\com\rest\async\entity\Note.java
